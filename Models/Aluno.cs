@@ -1,13 +1,13 @@
-using System.ComponentModel.DataAnnotations; 
-namespace CRUDALNBCC.Models {
- 
-public class Aluno
+using System.ComponentModel.DataAnnotations;
+namespace CRUDALNBCC.Models
 {
-   public int id { get; set; }
-   public string  nome { get; set; }
-   public int idade { get; set; }   
-   public string curso { get; set; }
-   public float nota { get; set; }
-}
+   public class Aluno
+   {
+      public int id { get; set; }
+      public string nome { get; set; }
+      public int idade { get; set; }
+      public string curso { get; set; }
+      public float nota { get; set; }
 
+   }
 }

@@ -1,4 +1,4 @@
-using CRUDALNBCC.Data; 
+using CRUDALNBCC.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
